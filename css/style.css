@@ -1,4 +1,16 @@
 body{
     padding: 0;
     margin: 0;
+    display: flex;
+}
+.menu{
+background-color: black;
+width: 300px;
+min-height: 100vh;
+}
+
+.mine{
+width: calc(100% - 300px);
+min-height: 100vh;
+    background-color: red;
 }
