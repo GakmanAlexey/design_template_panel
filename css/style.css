@@ -1,16 +1,72 @@
+@font-face {
+	font-family: 'bebas'; 
+	src: url(../font/bebas.ttf); 
+}
+
 body{
     padding: 0;
     margin: 0;
     display: flex;
 }
+
+.top_menu{
+    height: 77px;
+    width: 100vw;
+    background-color: #F44336;
+    position: fixed;
+    box-shadow: 0 0 5px;
+}
+
 .menu{
-background-color: black;
+background-color: #FDFDFD;
+margin-top: 77px;
 width: 300px;
-min-height: 100vh;
+min-height: calc(100vh - 77px);
+box-shadow: inset 0px 0px 3px #656565;
 }
 
 .mine{
 width: calc(100% - 300px);
-min-height: 100vh;
-    background-color: red;
+margin-top: 77px;
+min-height: calc(100vh - 77px);
+    background-color: #E9E9E9;
+    box-shadow: inset 3px 0px 3px #656565;
+}
+
+.element_menu{
+width: 274px;
+height: 44px;
+padding:0px 13px 0 13px;
+display: flex;
+align-items: center;
+font-family: "bebas";
+}
+
+.icon_parameters_left{
+    width: 24px;
+    height: 24px;
+}
+.element_menu_left_icon{
+
+    width: 24px;
+    height: 24px;
+}
+
+.element_menu_text{
+    width: 200px;
+    margin: 2px 12px;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase ;
+    letter-spacing:2px
+
+}
+.icon_parameters_right{
+    width: 12px;
+    height: 12px;
+}
+.element_menu_right_icon{
+
+    width: 20px;
+    height: 20px;
 }
