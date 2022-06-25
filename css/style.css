@@ -6,7 +6,8 @@
 	font-family: 'monte'; 
 	src: url(../font/monte.ttf); 
 }
-
+input,textarea {outline:none;}
+textarea{height: 100px;}
 body{
 	font-family: 'monte'; 
     padding: 0;
@@ -219,4 +220,83 @@ font-family: "bebas";
     display: inline-block;
     padding: 5px 5px;
     font-weight: 400;
+}
+
+.button_classic{
+    width: 150px;
+    padding: 9px 15px;
+    border: none;
+    box-shadow: 0 1px 2px 2px rgba(170, 170, 170, 0.2);
+    margin: 5px;
+}
+.bt_stand{
+    background-color: #fff;
+    color: #000;
+}
+.bt_start{
+    background-color: #2196F3;
+    color: #fff;
+}
+.bt_suc{
+    background-color: #4CAF50;
+    color: #fff;
+    
+}
+.bt_info{
+    background-color: #2196F3;
+    color: #fff;
+    
+}
+.bt_war{
+    background-color: #FF5722;
+    color: #fff;
+    
+}
+.bt_dan{
+    background-color: #F44336;
+    color: #fff;
+    
+}
+.bt_height_4{
+    padding: 20px;
+}
+.bt_height_3{
+    padding: 15px;
+}
+.bt_height_2{
+    padding: 10px;
+}
+.bt_height_1{
+    padding: 5px;
+}
+.bt_height_0{
+    padding: 0px;
+}
+
+.input_1inline{
+    width: calc(100% - 30px);
+}
+.input_2inline{
+    width: calc(50% - 27px);
+    margin: 5px 0;
+}
+.input_3inline{
+    width: calc(33% - 21px);
+}
+.input_4inline{
+    width: calc(25% - 25px);
+}
+.input_standart{
+    height: 20px;
+    padding: 10px 10px 3px 10px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+.input_standart:focus  {
+    border-bottom: 1px solid #2196F3;
+
+}
+.text_area_standart{
+    height: 75px;
 }
